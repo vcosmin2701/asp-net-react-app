@@ -18,11 +18,11 @@ export class Counter extends Component {
   render() {
     return (
       <div>
-        <h1>Counter</h1>
+        <h1>The vibe zone</h1>
 
-        <p>This is a simple example of a React component.</p>
+        <p>Good mood counter</p>
 
-        <p aria-live="polite">Current count: <strong>{this.state.currentCount}</strong></p>
+        <p aria-live="polite">Increase good vibe counter: <strong>{this.state.currentCount}</strong></p>
 
         <button className="btn btn-primary" onClick={this.incrementCounter}>Increment</button>
       </div>
